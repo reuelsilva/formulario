@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro DevWeb</h1>
+        <p>Preencha o cadastro para a vaga de desenvolvedor web.</p>
+    </header>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="sbnome">Sobrenome</label>
+            <input type="text" name="sbnome" id="sbnome">
+        </div>
+        <div>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="linkedin">Linkedin:</label>
+            <input type="url" name="linkedin" id="linkedin" placeholder="https://www.linkedin.com/in/">
+        </div>
+
+        <label for="">Fale de voce</label><br>
+        <textarea name="" id="" cols="50" rows="10"></textarea>
+
+        
+        <div>
+            <label for="">Selecione qual stack você desenvolve?</label>
+            <label for="stack">
+                <input type="radio" name="stack" id="stack" checked>Front-end
+                <input type="radio" name="stack" id="stack">Back-end
+                <input type="radio" name="stack" id="stack">Full-stack
+            </label>
+        </div>
+
+        <label for="senioridade">Senioridade</label>
+        <select name="senioridade" id="senioridade">
+            <option value="" selected disabled >Selecione</option>
+            <option value="">Junior</option>
+            <option value="">Pleno</option>
+            <option value="">Sênior</option>
+        </select>
+
+        <div>
+            <label for="">Suas habilidades</label>
+            <label for="">
+                <input type="checkbox" name="tecnologia1" id="tecnologia1">HTML
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia2" id="tecnologia2">CSS
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia3" id="tecnologia3">JavaScript
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia3" id="tecnologia3">Java
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia4" id="tecnologia4">PHP
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia5" id="tecnologia5">Python
+            </label>
+            <label for="">
+                <input type="checkbox" name="tecnologia6" id="tecnologia6">C#
+            </label>
+        </div>
+    </form>
+</body>
+</html>
