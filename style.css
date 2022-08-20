@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'HWYGOTH';
+    src: url('fontes/HWYGOTH.TTF') format('truetype');
+}
+
 header, form{
     margin:auto;
     width: 600px;
@@ -20,11 +25,17 @@ body{
 h1{
     margin-top: 0px;
     margin-bottom: 0px;
-
+    font-family: 'HWYGOTH';
+    font-weight: normal;
 
 }
 
 p{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+header > p, form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
