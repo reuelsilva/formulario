@@ -13,34 +13,33 @@
         <p>Preencha o cadastro para a vaga de desenvolvedor web.</p>
     </header>
     <form>
-        <div>
+        <div class="espacamento-div">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome">
         </div>
-        <div>
+        <div class="espacamento-div">
             <label for="sbnome">Sobrenome</label>
             <input type="text" name="sbnome" id="sbnome">
         </div>
-        <div>
+        <div class="espacamento-div">
             <label for="tel">Telefone:</label>
             <input type="tel" name="tel" id="tel">
         </div>
-        <div>
+        <div class="espacamento-div">
             <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
         </div>
-        <div>
+        <div class="espacamento-div">
             <label for="linkedin">Linkedin:</label>
             <input type="url" name="linkedin" id="linkedin" placeholder="https://www.linkedin.com/in/">
         </div>
-        <div>
+        <div class="espacamento-div">
             <label for="github">Github:</label>
             <input type="url" name="github" id="github" placeholder="https://github.com/">
         </div>
 
         <label for="">Fale de voce</label><br>
         <textarea name="" id="" cols="50" rows="10"></textarea>
-
         
         <div>
             <label for="">Selecione qual stack você desenvolve?</label>
@@ -51,13 +50,15 @@
             </label>
         </div>
 
-        <label for="senioridade">Senioridade</label>
-        <select name="senioridade" id="senioridade">
-            <option value="" selected disabled >Selecione</option>
-            <option value="">Junior</option>
-            <option value="">Pleno</option>
-            <option value="">Sênior</option>
-        </select>
+        <div>
+            <label for="senioridade">Senioridade</label>
+                <select name="senioridade" id="senioridade">
+                    <option value="" selected disabled >Selecione</option>
+                    <option value="">Junior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Sênior</option>
+            </select>
+        </div>
 
         <div>
             <label for="">Suas habilidades</label>
@@ -83,6 +84,8 @@
                 <input type="checkbox" name="tecnologia6" id="tecnologia6">C#
             </label>
         </div>
+
+        <button type="submit">Envie</button>
     </form>
 </body>
 </html>
