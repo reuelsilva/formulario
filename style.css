@@ -14,8 +14,6 @@ header, form{
 header{
     
     padding-bottom: 30px;
-
-
 }
 
 form{
@@ -26,7 +24,6 @@ body{
     background-color: lightgrey;
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
 
 h1{
@@ -36,14 +33,12 @@ h1{
     font-family: 'HWYGOTH';
     font-weight: normal;
     text-align: center;
-
 }
 
 p{
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 10px;
-
 }
 
 header > p, form{
