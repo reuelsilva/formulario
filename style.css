@@ -29,6 +29,8 @@ header > h1{
     font-weight: normal;
     margin-top: 15px;
     margin-bottom: 30px;
+    color: #9a4ea1;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 61%);
 }
 
 header > p{
@@ -41,6 +43,7 @@ header > p, form > main{
 
 main{
     font-weight: bold;
+    color: #13293D;
 }
 
 .topo01{
@@ -97,7 +100,8 @@ main{
     margin-top: 30px;
     padding: 4px 20px 4px 20px;
     font-weight: bold;
-    background-color: rgba(179, 179, 179, 0.692);
+    background-color: lightgray;
+    color: #13293D;
     border-color: black;
     border-width: 1px;
     border-radius: 30px;
@@ -105,4 +109,5 @@ main{
 
 select, option{
     font-weight: bold;
+    color: #13293D;
 }
