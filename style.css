@@ -27,7 +27,6 @@ header > h1{
     font-family: 'HWYGOTH';
     font-size: 2.2em;
     font-weight: normal;
-    color: #142559;
     margin-top: 15px;
     margin-bottom: 30px;
 }
@@ -42,7 +41,6 @@ header > p, form > main{
 
 main{
     font-weight: bold;
-    color: #363540;
 }
 
 .topo01{
@@ -99,8 +97,7 @@ main{
     margin-top: 30px;
     padding: 4px 20px 4px 20px;
     font-weight: bold;
-    color: #363540;
-    background-color: rgba(177, 177, 177, 0.664);
+    background-color: rgba(179, 179, 179, 0.692);
     border-color: black;
     border-width: 1px;
     border-radius: 30px;
@@ -108,5 +105,4 @@ main{
 
 select, option{
     font-weight: bold;
-    color: #363540;
 }
