@@ -46,42 +46,21 @@ main{
     color: #13293D;
 }
 
-.topo01{
+.bloco-alto{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#nome{
-    width: 208px;
-}
-
-#tel, #linkedin{
-    width: 185px;
-}
-
-#email{
-    width: 200px;
-}
-
-#github{
-    width: 198px;
-}
-
-#lblareatexto{
+#lbl-area-de-texto{
     display: block;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-#areatexto{
+#area-de-texto{
     padding: 10px;
-    margin-bottom: 15px;
     height: 127px; 
     width: 349px;
-}
-
-#container-stack{
-    margin-bottom: 15px;
 }
 
 #lblstack{
@@ -89,14 +68,14 @@ main{
     margin-bottom: 10px;
 }
 
-#container-nivel{
+.bloco-baixo{
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-#container-tech{
-    margin-top: 15px;
-    margin-bottom: 15px;
+select, option{
+    font-weight: bold;
+    color: #13293D;
 }
 
 #botao{
@@ -108,9 +87,4 @@ main{
     border-color: black;
     border-width: 1px;
     border-radius: 30px;
-}
-
-select, option{
-    font-weight: bold;
-    color: #13293D;
 }
