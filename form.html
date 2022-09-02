@@ -4,52 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Cadastro DevWeb</h1>
-        <p>Preencha o cadastro abaixo para a vaga de desenvolvedor web.</p>
-    </header>
     <form>
-        <div class="distanciamento">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" style="width: 205px;" required>
-        </div>
-        <div class="distanciamento">
-            <label for="sbnome">Sobrenome</label>
-            <input type="text" name="sbnome" id="sbnome" style="width: 169px;" required>
-        </div>
-        <div class="distanciamento">
-            <label for="tel">Telefone:</label>
-            <input type="tel" name="tel" id="tel" style="width: 185px;">
-        </div>
-        <div class="distanciamento">
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" required style="width: 199px;">
-        </div>
-        <div class="distanciamento">
-            <label for="linkedin">Linkedin:</label>
-            <input type="url" name="linkedin" id="linkedin" style="width: 185px;" placeholder="https://www.linkedin.com/in/">
-        </div>
-        <div class="distanciamento">
-            <label for="github">Github:</label>
-            <input type="url" name="github" id="github" style="width: 195px;" placeholder="https://github.com/">
-        </div>
+        <header>
+            <h1>Cadastro DevWeb</h1>
+            <p>Preencha o cadastro abaixo para a vaga de desenvolvedor web.</p>
+        </header>
 
-        <label for="areatexto" id="labelareatexto">Fale da sua experiência de programador:</label>
-        <textarea name="areatexto" id="areatexto" cols="50" rows="10"></textarea>
-        
-        <div>
-            <label for="" class="labelstack">Selecione qual stack você desenvolve?</label>
-            <label for="stack" class="labelstack">
-                <input type="radio" name="stack" id="stack" checked>Front-end
-                <input type="radio" name="stack" id="stack">Back-end
-                <input type="radio" name="stack" id="stack">Full-stack
-            </label>
-        </div>
-            <div  id="serioridadecontainer">
+        <main>
+            <div class="topo01">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="topo01">
+                <label for="sbnome">Sobrenome</label>
+                <input type="text" name="sbnome" id="sbnome" required>
+            </div>
+            <div class="topo01">
+                <label for="tel">Telefone:</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+            <div class="topo01">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required >
+            </div>
+            <div class="topo01">
+                <label for="linkedin">LinkedIn:</label>
+                <input type="url" name="linkedin" id="linkedin" placeholder="https://www.linkedin.com/in/">
+            </div>
+            <div class="topo01">
+                <label for="github">Github:</label>
+                <input type="url" name="github" id="github" placeholder="https://github.com/">
+            </div>
+            <label for="areatexto" id="lblareatexto">Fale da sua experiência de programador:</label>
+            <textarea name="areatexto" id="areatexto" cols="50" rows="10"></textarea>
+            
+            <div id="container-stack">
+                <label for="" id="lblstack">Selecione qual stack você desenvolve?</label>
+                <label for="stack">
+                    <input type="radio" name="stack" id="stack" checked>Front-end
+                    <input type="radio" name="stack" id="stack">Back-end
+                    <input type="radio" name="stack" id="stack">Full-stack
+                </label>
+            </div>
+            <div id="container-nivel">
                 <label for="senioridade">Nível de desenvolvedor:</label>
                     <select name="senioridade" id="senioridade">
                         <option value="" selected disabled >Selecione</option>
@@ -58,38 +60,36 @@
                         <option value="">Sênior</option>
                 </select>
             </div>
-        </div>
-
-        <div id="serioridadecontainer">
-            <label for="">Linguagens que desenvolve:</label>
-            <label for="">
-                <input type="checkbox" name="tecnologia1" id="tecnologia1">HTML
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia2" id="tecnologia2">CSS
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia3" id="tecnologia3">JavaScript
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia3" id="tecnologia3">Java
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia4" id="tecnologia4">PHP
-            </label>
-            <br>
-            <label for="">
-                <input type="checkbox" name="tecnologia5" id="tecnologia5">Python
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia6" id="tecnologia6">C#
-            </label>
-            <label for="">
-                <input type="checkbox" name="tecnologia7" id="tecnologia7">Outras
-            </label>
-        </div>
-
-        <button type="submit" id="botaoenvio">Envie</button>
+            <div id="container-tech">
+                <label for="">Linguagens que desenvolve:</label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1">HTML
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2">CSS
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3">JavaScript
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3">Java
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia4" id="tecnologia4">PHP
+                </label>
+                <br>
+                <label for="">
+                    <input type="checkbox" name="tecnologia5" id="tecnologia5">Python
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia6" id="tecnologia6">C#
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tecnologia7" id="tecnologia7">Outras
+                </label>
+            </div>
+            <abbr title="Envie o formulário"><button type="submit" id="botao">Envie</button></abbr>
+        </main>
     </form>
 </body>
 </html>
