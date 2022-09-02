@@ -47,6 +47,7 @@ main{
 }
 
 .topo01{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -89,10 +90,12 @@ main{
 }
 
 #container-nivel{
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #container-tech{
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
