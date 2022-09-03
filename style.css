@@ -8,6 +8,7 @@
 body{
     background-color: lightgray ;
     margin: 0px;
+    margin: 10px;
 }
 
 form{
@@ -16,6 +17,8 @@ form{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px 15px 70px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 11px 0px #00000045;
 }
 
 header{
