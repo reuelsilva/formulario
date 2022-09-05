@@ -1,4 +1,3 @@
-# formulario
- Formulário de cadastro para vaga de desenvolvedor web
- 
- Desenvolvimento em andamento
+# formulário
+ Formulário de cadastro para vaga de desenvolvedor web.
+ <a href="https://reuelsilva.github.io/formulario/form" target="self">Acesse o formulário.</a>
